@@ -135,6 +135,5 @@ Kung ito ay isang bagay tulad ng `node_modules/electron/index.js`, pagkatapos ay
 npm uninstall electron
 npm uninstall -g electron
 ```
-However if you are using the built-in module but still getting this error, it
-is very likely you are using the module in the wrong process.
+
 Gayunpaman kung ikaw ay gumagamit ng built-in na modyul at nakakakuha ka parin ng error na ito, malaki ang posibilidad na ginagamit mo ang modyul sa maling proseso. Halimbawa ang `electron.app` ay maaari lamang magamit sa pangunahing proseso, habang ang `electron.webFrame`ay ang tanging maaari sa proseso ng pang-render.
