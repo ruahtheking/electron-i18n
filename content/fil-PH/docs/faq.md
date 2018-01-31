@@ -108,7 +108,7 @@ delete window.module;
 
 ## `require('electron').xxx` ay hindi matukoy.
 
-Kapag gumagamit ng built-in na modyul ng Electron's maaari kang maka-engkwentro ng error na tulad nito:
+Kapag gumagamit ng built-in na modyul ng Electron maaari kang maka-engkwentro ng error na tulad nito:
 
 ```sh
 > require('electron').webFrame.setZoomFactor(1.0)
